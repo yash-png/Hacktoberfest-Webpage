@@ -1,3 +1,5 @@
 # Hacktoberfest-Webpage
 
-Add your HTML, CSS file here and create a PR
+## Fork this repo
+## Add your HTML, CSS file
+## Create a Pull Request
