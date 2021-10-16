@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Use of Quotations</title>
+        <style>
+            body
+            {
+                background-color:azure;
+                text-align: left;
+            }
+            .heading
+            {
+                text-align: center;
+                font-family: Verdana;
+                color: brown;
+                border: 4px solid pink;
+                background-color:mediumturquoise;
+                padding: 12px;
+            }
+            .main
+            {
+                font-family:'Trebuchet MS';
+                color: indigo;
+                border: 3px dashed orange;
+                background-color:bisque;
+            }
+
+            .tagheading
+            {
+                font-family:Arial;
+                color: blueviolet;
+            }
+
+            ol li 
+            {
+                list-style-position:outside;
+                font-weight: 900;
+                border: 5px solid black;
+                padding: 20px;
+                color: red;
+                font-weight: bold;
+                
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <h1 class="heading">HTML Quotation and Citation Elements</h1>
+    
+        <ol>
+            <h2 class="tagheading">
+            <li class="tag">HTML &lt;blockquote&gt; for Quotations</h2>
+                <h4>
+                    The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.
+
+                      <br>Browsers usually indent &lt;blockquote&gt; elements.
+                </h4>
+                <h3 class="main">
+                    <p>Browsers usually indent blockquote elements.</p>
+                    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                    For nearly 60 years, WWF has been protecting the future of nature. 
+                    The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+                    </blockquote>
+                </h3>
+            </li>
+
+
+            <h2 class="tagheading">
+                <li class="tag">HTML &lt;q&gt; for Quotations</h2>
+                    <h4>
+                        The HTML &lt;q&gt; tag defines a a short quotation.
+    
+                         <br>Browsers normally insert quotation maeks around the quotation.
+                    </h4>
+                    <h3 class="main">
+                        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+                    </h3>
+                </li>
+
+
+            <h2 class="tagheading">
+                <li class="tag">HTML &lt;abbr&gt; for Abbreviations</h2>
+                    <h4>
+                        The HTML &lt;abbr&gt; tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+    
+                            <br>Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+
+                            <br><u>Tip</u> : Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element. 
+                    </h4>
+                    <h3 class="main">
+                        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+                    </h3>
+                </li>
+
+
+            <h2 class="tagheading">
+                <li class="tag">HTML &lt;address&gt; for Contact Information</h2>
+                    <h4>
+                        The HTML &lt;address&gt; tag defines the contact information for the author/owner of a document or an article.
+    
+                            <br>The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+
+                            <br>The text in the &lt;address&gt; element usually renders in italic, and browsers will always add a line break before and after the &lt;address&gt; element.
+                    </h4>
+                    <h3 class="main">
+                        <address>
+                            Written by John Doe.<br>
+                            Visit us at:<br>
+                            Example.com<br>
+                            Box 564, Disneyland<br>
+                            USA
+                        </address>
+                    </h3>
+                </li>
+
+
+            <h2 class="tagheading">
+                <li class="tag">HTML &lt;cite&gt; for Work Title</h2>
+                    <h4>
+                        The HTML &lt;cite&gt; tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+    
+                            <br><u>Note</u> : A person's name is not the title of a work.
+
+                            <br>The text in the &lt;cite&gt; element usually renders in italic.
+                    </h4>
+                    <h3 class="main">
+                        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+                    </h3>
+                </li>
+
+
+            <h2 class="tagheading">
+                <li class="tag">HTML &lt;bdo&gt; for Bi-Directional Override</h2>
+                    <h4>
+                        BDO stands for Bi-Directional Override.
+
+                        <br>The HTML &lt;bdo&gt; tag is used to override the current text direction :
+    
+                    </h4>
+                    <h3 class="main">
+                        <bdo dir="rtl">This text will be written from right to left</bdo>
+                    </h3>
+                </li>
+        </ol>
+
+    </body>
+</html>
